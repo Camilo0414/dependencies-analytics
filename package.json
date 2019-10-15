@@ -1,0 +1,17 @@
+{
+  "name": "dependency-reader",
+  "version": "1.0.0",
+  "description": "pom.xml and package.json reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Jose Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.2.0",
+    "pom-parser": "1.1.1",
+    "request": "2.88.0",
+    "read-package-json": "^2.0.13"
+  }
+}
