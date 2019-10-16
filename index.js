@@ -82,11 +82,11 @@ function parse_files(extension, complete_filepath, filename, project_information
     console.error(extension);
     switch (extension) {
         case "xml":
-            setTimeout(parse_pom_file, 150000, complete_filepath, filename);
+            setTimeout(parse_pom_file, 0, complete_filepath, filename);
             break;
         case "json":
             if (filename !== "npm-shrinkwrap" && filename !== "package-lock") {
-                setTimeout(parse_json_file, 150000, complete_filepath, filename);
+                setTimeout(parse_json_file, 0, complete_filepath, filename);
             }
             break;
         default:
