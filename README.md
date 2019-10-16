@@ -40,3 +40,5 @@ Then run:
 And the script should get the Maven and NPM files from the folders and generate a csv report file under the ```report/``` folder
 
 Due to limitations of the vulnerabilities REST API, we need to make calls in a relatively long interval of time. In the function ```parse_files``` there are two ```setTimeout()``` calls that wait 5 minutes before continuing to the next call for a given file. The time between calls can be changed within this ```setTimeout()``` function.
+
+P.S. All credir for J Álvarez.
